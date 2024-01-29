@@ -5,6 +5,7 @@ export default function Home() {
   return (
     
       <div>
+        <a href="#">
       <section className="hero">
         <div className="py-16">
         <h1 className="text-4xl font-semibold">Nouveautés immobilères</h1>
@@ -46,7 +47,10 @@ export default function Home() {
             <button className=" mt-4 bg-primary text-white rounded-full px-6 py-2">Plus D'infos</button>
           </div>
         </div>
+
       </section>
+      </a>
+     
       
     </div>
 
