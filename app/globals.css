@@ -10,6 +10,7 @@ section.hero{
 input[type ="tel"],
 input[type ="email"],
 input[type ="password"],
+textarea[id="subject"],
 input[type ="text"]{
   @apply block w-full my-4 rounded-xl;
   @apply border p-2 border-gray-300 bg-gray-100;

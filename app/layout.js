@@ -20,14 +20,21 @@ export default function RootLayout({ children }) {
         <Link href="/"><img width={50} height={60}src="https://play-lh.googleusercontent.com/lDbimhGNxxgrQu8HH0J-vuZYcS01muGZR35iDa80eP6GaUAN43ZV_zaE-x73hmoSM2k" />
         </Link>
           <Link href="/">Home </Link>
-          <Link href="">Catalogue </Link>
-          <Link href="">Contact</Link>
+          <Link href="#">Catalogue </Link>
+          <Link href="/Contact">Contact</Link>
           </nav>
           <nav className="flex items-center gap-8 text-gray-500 font-semibold ">
           <Link href="/Connexion" className="bg-primary rounded-full text-white px-6 py-2">Se Connecter</Link>
           </nav>
       </header> 
+
         {children}
+        <footer className="border-t p-8 text-center text-gray-500 mt-16">
+             <div>Copyright © 2024 Tayara </div>
+             <div>صوّر بيع
+                 •
+                لوّج إشري</div>
+          </footer>
       </main>
       </body>
     </html>
